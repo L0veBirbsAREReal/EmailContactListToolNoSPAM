@@ -1,6 +1,8 @@
 # EmailContactListToolNoSPAM
 Email: Filter via contacts is not a thing? OR amI missing something? - Since as long as I can remember having first made and email account and being inundated with spam spam spam.
 
+Working in Gmail and ProtonMail
+
 Having tried many filters and different email domains I've concluded they do not wish to fix email at all. They give us 5-15 Gig for us only to spam the shit out of daily having an email account is now yet another responsibility to Keeping your inbox clean of spam and searching for logons, verify links is a minefield. These all really are marketing method of tracking our daily activity via log ons, ref links, affiliate links, tracking links like UTM links, redirect links, or click-tracking URLs, SPAM SPAM SPAM!
 
 To get back SOME self control of your email and filters, I'll float you my idea.. But whinge on? The big tech companies want you to see their spam I got an idea to avoid that completely and make a painful curated list of 
@@ -49,3 +51,38 @@ This should make this a lot easier to understand, Instead of using the inbox jus
 	Or and scroll or TAB straight to "labels"
 
 Step 7 ENJOY WITHOUT SPAM! ~ NOTE REVIEW FOR EDIT IN A WEEK, lets hope I made sence.
+
+<hr>
+
+# Spam Filter for ProtonMail
+
+Spam Filter for ProtonMail
+
+Pre-Requists
+
+Like the gmail filter list for the Contacts labels/folder you First need to make a lable in "Labels +" on the left of your email's web interface and issue it a colour. Name it Contacts maybe give it a blue?
+
+ProtonMail> ⚙️ > See all settings > folders and labels OR https://account.proton.me/u/0/mail/folders-labels
+
+
+Make a Filter
+
+ProtonMail> ⚙️ > See all settings > Filters OR https://account.proton.me/u/0/mail/filters
+
+Add custom filter, call it "protonmail-automail-filter.sieve"
+
+Copy pasta the followoing, file is included... "protonmail-automail-filter.sieve"
+
+Just add emails in the following syntax
+
+"alice@gmail.com", "bob@outlook.com", "claire@protonmail.com", "Danny@Yahoo.co.uk"
+
+making sure all the new emails are infact within the []
+
+ie
+
+"alice@gmail.com", "bob@outlook.com", "TheNewEmail@domain.com", "claire@protonmail.com", "Danny@Yahoo.co.uk"
+
+
+
+
