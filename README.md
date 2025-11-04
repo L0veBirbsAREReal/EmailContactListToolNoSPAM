@@ -81,7 +81,7 @@ making sure all the new emails are infact within the []
 
 ie
 
-"alice@gmail.com", "bob@outlook.com", "TheNewEmail@domain.com", "claire@protonmail.com", "Danny@Yahoo.co.uk"
+["alice@gmail.com", "bob@outlook.com", "TheNewEmail@domain.com", "claire@protonmail.com", "Danny@Yahoo.co.uk"]
 
 
 
