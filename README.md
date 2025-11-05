@@ -1,11 +1,11 @@
 # EmailContactListToolNoSPAM
-Email: Filter via contacts is not a thing? OR amI missing something? - Since as long as I can remember having first made and email account and being inundated with spam spam spam.
+Email: Filter via contacts is not a thing? OR amI missing something? - Since as long as I can remember having first made and email account and being inundated with SPAM SPAM SPAM.
 
 Working in Gmail and ProtonMail
 
-Having tried many filters and different email domains I've concluded they do not wish to fix email at all. They give us 5-15 Gig for us only to spam the shit out of daily having an email account is now yet another responsibility to Keeping your inbox clean of spam and searching for logons, verify links is a minefield. These all really are marketing method of tracking our daily activity via log ons, ref links, affiliate links, tracking links like UTM links, redirect links, or click-tracking URLs, SPAM SPAM SPAM!
+Having tried many filters and different email domains I've concluded they do not wish to fix email at all. They give us 5-15 Gig for us only to SPAM SPAM SPAM the shit out of daily. Having an email account is now yet another responsibility to Keeping your inbox clean of spam and searching for logons, verify links is a minefield. These all really are marketing method of tracking our daily activity via logons, ref links, affiliate links, tracking links like UTM links, redirect links, or click-tracking URLs, SPAM SPAM SPAM!
 
-To get back SOME self control of your email and filters, I'll float you my idea.. But whinge on? The big tech companies want you to see their spam I got an idea to avoid that completely and make a painful curated list of 
+To get back SOME self control of your OWN email and filters.. I'll float you my idea.. But whinge on, yea? The big tech companies want you to see their spam I got an idea to avoid that completely and make a painful curated list of 
 
 alice@gmail.com
 bob@outlook.com
@@ -16,16 +16,16 @@ But in order for the lists to work the following format must be employed
 
 alice@gmail.com OR bob@outlook.com OR claire@protonmail.com OR Danny@Yahoo.co.uk (into gm@il > ⚙️ > See all settings > Filters and Block Addresses)
 
-Which is pain full in itself. But for this imple tool....
+Which is pain full in itself. But for this simple tool....
 
 Step 1 - Extract your google contacts as a *.CSV file https://contacts.google.com/u/0/?hl=en (up arrow)
 
-Step 2 - Open Liber office spreadsheet and open/import the downloaded "contacts.csv", find the email coulomb(s) highlight to copy to a new textfile "copypasta.txt" and paste. Repeat if there is multiple coulombs.
+Step 2 - Open Liber office spreadsheet and open/import the downloaded "contacts.csv", find the email coulomb(s) highlight to copy to a new text file "copypasta.txt" and paste. Repeat if there is multiple coulombs.
 
 	Save text file as C:\Users\User\Desktop\CopyPasta.txt
 
 Step 3 - Use tool WordLIstDepulication.ps1 available in my github (https://github.com/L0veBirbsAREReal/WordListPlaylistDeDuplication) This will remove duplicates and clean up the list for the next step. It will save output as a *.stignore file,
-	just rename and move it back to C:\Users\User\Downloads\CleanedUpEmails.txt for step 4 below.
+	just rename and move it back to C:\Users\User\Downloads\CleanedUpEmails.txt for step 4 	below.
 
 Step 4 - Run the tool be spoken of which this repository is all about.. ie RUN "Em@ilContactListTool2.ps1"
 
@@ -42,7 +42,7 @@ See this video, it explains better than I can it's called "How to use Gmail Filt
 https://www.youtube.com/watch?v=S9Uhr7RhyiM
 
 
-This should make this a lot easier to understand, Instead of using the inbox just scoll on the left side of your gmail to the "contact" filter tag/folder for you important phone/google contact via their filtered emails and just completely bypass the inbox totally and utterly as this just wastes too much time manually adding labels to each email and filtering each time when you can just filter search with once with the filter tool they never fixed...
+This should make this ALL alot easier to understand.. Instead of using the inbox just scroll on the left side of your gmail to the "contact" filter tag/folder for you important phone/google contact via their filtered emails and just completely bypass the inbox totally and utterly as this just wastes too much time manually adding labels to each email and filtering each time when you can just filter search with once with the filter tool they never fixed...
 	
 	search mail with 
 	
@@ -58,9 +58,9 @@ Step 7 ENJOY WITHOUT SPAM! ~ NOTE REVIEW FOR EDIT IN A WEEK, lets hope I made se
 
 Spam Filter for ProtonMail
 
-Pre-Requists
+Pre Requisites
 
-Like the gmail filter list for the Contacts labels/folder you First need to make a lable in "Labels +" on the left of your email's web interface and issue it a colour. Name it Contacts maybe give it a blue?
+Like the gm@il filter list for the Contacts labels/folder you First need to make a Label/Folder in "Labels +" on the left of your email's web interface and issue it a colour. Name it Contacts maybe give it a blue?
 
 ProtonMail> ⚙️ > See all settings > folders and labels OR https://account.proton.me/u/0/mail/folders-labels
 
@@ -71,18 +71,19 @@ ProtonMail> ⚙️ > See all settings > Filters OR https://account.proton.me/u/0
 
 Add custom filter, call it "protonmail-automail-filter.sieve"
 
-Copy pasta the followoing, file is included... "protonmail-automail-filter.sieve"
+Copy pasta the following, file is included... "protonmail-automail-filter.sieve"
 
 Just add emails in the following syntax
 
 "alice@gmail.com", "bob@outlook.com", "claire@protonmail.com", "Danny@Yahoo.co.uk"
 
-making sure all the new emails are infact within the []
+Making sure all the new emails are intact within the []
 
 ie
 
 ["alice@gmail.com", "bob@outlook.com", "TheNewEmail@domain.com", "claire@protonmail.com", "Danny@Yahoo.co.uk"]
 
+<hr>
 
-
+# Spam Filter for Outlook, coming soon, perhaps other(s) upon request? ie prefix@dnmx.su??
 
