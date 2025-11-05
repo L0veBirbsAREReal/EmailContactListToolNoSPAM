@@ -85,5 +85,6 @@ ie
 
 <hr>
 
-# Spam Filter for Outlook, coming soon, perhaps other(s) upon request? ie prefix@dnmx.su??
+# Spam Filter for Outlook, coming soon
+Perhaps other(s) upon request? ie prefix@dnmx.su??
 
